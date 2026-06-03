@@ -1,0 +1,23 @@
+# -----------------------------------------------------------
+# Arquivo de Projeto ERP - Ambiente Linux
+# -----------------------------------------------------------
+# Nome do executável (No Linux não se usa .exe por padrão)
+-oerp_sistema
+
+# Biblioteca de funções de terminal e compatibilidade
+-lhbct
+
+# Avisos para garantir código limpo
+-w0
+
+# Lista de módulos para compilação
+erp.prg
+cadastro.prg
+vendas.prg
+estoque.prg
+financeiro.prg
+relatorios.prg
+
+# Garante que o Harbour use o driver de banco de dados DBFCDX (mais moderno)
+# ou mantenha o padrão se você preferir NTX
+-gui
