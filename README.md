@@ -44,3 +44,4 @@ No Linux:
 ```
 ./erp_sistema
 ```
+<img width="1070" height="1040" alt="image" src="https://github.com/user-attachments/assets/dc5d9074-4957-4795-bc2c-0aa3cf171ef0" />
